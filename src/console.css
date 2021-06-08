@@ -1,0 +1,240 @@
+/*--------------------Button--------------------*/
+.btn{
+    display: inline-block;
+    color: rgb(33,37,41);
+    background-color: transparent;
+    text-align: center;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 4px;
+    border: 1px transparent solid;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.btn-small {
+    padding: 2px 8px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.btn-large {
+    padding: 8px 16px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.btn-sky {
+    color: white;
+    background-color: rgb(0, 123, 225);
+    border-color: rgb(0, 123, 225);
+}
+.btn-transparent-sky{
+    color: rgb(0, 123, 225);
+    background-color: transparent;
+    border-color: rgb(0, 123, 225);
+}
+
+.btn-stone {
+    color: white;
+    background-color: rgb(108,117,125);
+    border-color: rgb(108,117,125);
+}
+.btn-transparent-stone {
+    color: rgb(108,117,125);
+    background-color: transparent;
+    border-color: rgb(108,117,125);
+}
+  
+.btn-grass {
+    color: white;
+    background-color: rgb(40,167,69);
+    border-color: rgb(40,167,69);
+}
+.btn-transparent-grass {
+    color: rgb(40,167,69);
+    background-color: transparent;
+    border-color: rgb(40,167,69);
+}
+
+.btn-stop {
+    color: white;
+    background-color: rgb(220,53,69);
+    border-color: rgb(220,53,69);
+}
+.btn-transparent-stop {
+    color: rgb(220,53,69);
+    background-color: transparent;
+    border-color: rgb(220,53,69);
+}
+
+.btn-warning {
+    color: rgb(33,37,41);
+    background-color: rgb(255,193,7);
+    border-color: rgb(255,193,7);
+}
+.btn-transparent-warning {
+    color: rgb(255,193,7);
+    background-color: transparent;
+    border-color: rgb(255,193,7);
+}
+
+.btn-orange{
+    color: rgb(33,37,41);
+    background-color: rgb(255, 139, 7);
+    border-color: rgb(255, 139, 7);
+}
+.btn-transparent-orange{
+    color: rgb(255, 139, 7);
+    background-color: transparent;
+    border-color: rgb(255, 139, 7);
+}
+
+.btn-info {
+    color: #fff;
+    background-color: rgb(23,162,184);
+    border-color: rgb(23,162,184);
+}
+.btn-transparent-info {
+    color: rgb(23,162,184);
+    background-color: transparent;
+    border-color: rgb(23,162,184);
+}
+
+.btn-light {
+    color: rgb(33,37,41);
+    background-color: rgb(248,249,250);
+    border-color: rgb(248,249,250);
+}
+.btn-transparent-light {
+    color: rgb(248,249,250);
+    background-color: transparent;
+    border-color: rgb(248,249,250);
+}
+
+.btn-dark {
+    color: white;
+    background-color: rgb(52,58,64);
+    border-color: rgb(52,58,64);
+}
+.btn-transparent-dark {
+    color: rgb(52,58,64);
+    background-color: transparent;
+    border-color: rgb(52,58,64);
+}
+.btn-collection{
+    display: inline-flex;
+}
+
+.btn-collection .btn{
+    position: relative;
+    outline: none;
+}
+.btn-collection .btn:not(:first-child){
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.btn-collection .btn:not(:last-child){
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+/*--------------------Button Hover--------------------*/
+
+.btn-sky:hover {
+    color: white;
+    border-color: rgb(0,98,204);
+    background-color: rgb(0,98,204);
+}
+.btn-transparent-sky:hover{
+    color: white;
+    background-color: rgb(0, 123, 225);
+    border-color: rgb(0, 123, 225);
+}
+
+.btn-stone:hover {
+    color: white;
+    border-color: rgb(84,91,98);
+    background-color: rgb(84,91,98);
+}
+.btn-transparent-stone:hover {
+    color: white;
+    background-color: rgb(108,117,125);
+    border-color: rgb(108,117,125);
+}
+
+.btn-grass:hover {
+    color: white;
+    background-color: rgb(33,136,56);
+    border-color: rgb(33,136,56);
+}
+.btn-transparent-grass:hover {
+    color: white;
+    background-color: rgb(40,167,69);
+    border-color: rgb(40,167,69);
+}
+
+.btn-stop:hover {
+    color: white;
+    background-color: rgb(200,35,51);
+    border-color: rgb(200,35,51);
+}
+.btn-transparent-stop:hover {
+    color: white;
+    background-color: rgb(220,53,69);
+    border-color: rgb(220,53,69);
+}
+
+.btn-warning:hover {
+    color: rgb(33,37,41);
+    background-color: rgb(224,168,0);
+    border-color: rgb(224,168,0);
+}
+.btn-transparent-warning:hover {
+    color: white;
+    background-color: rgb(255,193,7);
+    border-color: rgb(255,193,7);
+}
+
+.btn-orange:hover{
+    color: rgb(33,37,41);
+    background-color: rgb(224, 139, 7);
+    border-color: rgb(224, 139, 7);
+}
+.btn-transparent-orange:hover{
+    color: white;
+    background-color: rgb(255, 139, 7);
+    border-color: rgb(255, 139, 7);
+}
+
+.btn-info:hover {
+    color: white;
+    background-color: rgb(19,132,150);
+    border-color: rgb(19,132,150);
+}
+.btn-transparent-info:hover {
+    color: white;
+    background-color: rgb(23,162,184);
+    border-color: rgb(23,162,184);
+}
+
+.btn-light:hover {
+    color: rgb(33,37,41);
+    background-color: rgb(226,230,234);
+    border-color: rgb(226,230,234);
+}
+.btn-transparent-light:hover {
+    color: rgb(33,37,41);
+    background-color: rgb(248,249,250);
+    border-color: rgb(248,249,250);
+}
+
+.btn-dark:hover {
+    color: white;
+    background-color: rgb(35,39,43);
+    border-color: rgb(35,39,43);
+}
+.btn-transparent-dark:hover {
+    color: white;
+    background-color: rgb(52,58,64);
+    border-color: rgb(52,58,64);
+}
