@@ -40,15 +40,15 @@ export default function SubButton() {
             <h5>Simple Transparent Buttons</h5>
             <div id="simple_transparent_button">
                 <div className="ui">
-                    <button class="btn btn-transparent-sky">Sky Button</button>
-                    <button class="btn btn-transparent-stone">Stone Button</button>
-                    <button class="btn btn-transparent-grass">Grass Button</button>
-                    <button class="btn btn-transparent-stop">Stop Button</button>
-                    <button class="btn btn-transparent-warning">Warning Button</button>
-                    <button class="btn btn-transparent-orange">Orange Button</button>
-                    <button class="btn btn-transparent-info">Info Button</button>
-                    <button class="btn btn-transparent-light">Light Button</button>
-                    <button class="btn btn-transparent-dark">Dark Button</button>
+                    <button className="btn btn-transparent-sky">Sky Button</button>
+                    <button className="btn btn-transparent-stone">Stone Button</button>
+                    <button className="btn btn-transparent-grass">Grass Button</button>
+                    <button className="btn btn-transparent-stop">Stop Button</button>
+                    <button className="btn btn-transparent-warning">Warning Button</button>
+                    <button className="btn btn-transparent-orange">Orange Button</button>
+                    <button className="btn btn-transparent-info">Info Button</button>
+                    <button className="btn btn-transparent-light">Light Button</button>
+                    <button className="btn btn-transparent-dark">Dark Button</button>
                 </div>
                 <div className="code_section">
                     <pre>
@@ -69,19 +69,19 @@ export default function SubButton() {
             <Typography variant="Paragraph">For small buttons you just need to add class <b>btn-small</b> it works with all kind of buttons</Typography>
             <div id="small_buttons">
                 <div className="ui pt-3">
-                    <button class="btn btn-sky btn-small">Sky Button</button>
-                    <button class="btn btn-stone btn-small">Stone Button</button>
-                    <button class="btn btn-grass btn-small">Grass Button</button>
-                    <button class="btn btn-stop btn-small">Stop Button</button>
-                    <button class="btn btn-warning btn-small">Warning Button</button>
+                    <button className="btn btn-sky btn-small">Sky Button</button>
+                    <button className="btn btn-stone btn-small">Stone Button</button>
+                    <button className="btn btn-grass btn-small">Grass Button</button>
+                    <button className="btn btn-stop btn-small">Stop Button</button>
+                    <button className="btn btn-warning btn-small">Warning Button</button>
                 </div>
                 <div className="code_section">
                     <pre>
-                    <OP /><span className="tag_name">button </span><span className="class_name">class</span><EQ/><IC/><span className="class">btn btn-sky btn-small</span><IC/><CZ /> SKY BUTTON <OP/><CZS/><span className="tag_name">button</span><CZ/><br/>
-                    <OP /><span className="tag_name">button </span><span className="class_name">class</span><EQ/><IC/><span className="class">btn btn-stone btn-small</span><IC/><CZ /> STONE BUTTON <OP/><CZS/><span className="tag_name">button</span><CZ/><br/>
-                    <OP /><span className="tag_name">button </span><span className="class_name">class</span><EQ/><IC/><span className="class">btn btn-grass btn-small</span><IC/><CZ /> GRASS BUTTON <OP/><CZS/><span className="tag_name">button</span><CZ/><br/>
-                    <OP /><span className="tag_name">button </span><span className="class_name">class</span><EQ/><IC/><span className="class">btn btn-stop btn-small</span><IC/><CZ /> STOP BUTTON <OP/><CZS/><span className="tag_name">button</span><CZ/><br/>
-                    <OP /><span className="tag_name">button </span><span className="class_name">class</span><EQ/><IC/><span className="class">btn btn-warning btn-small</span><IC/><CZ /> WARNING BUTTON <OP/><CZS/><span className="tag_name">button</span><CZ/><br/>
+                        <OP /><span className="tag_name">button </span><span className="class_name">class</span><EQ/><IC/><span className="class">btn btn-sky btn-small</span><IC/><CZ /> SKY BUTTON <OP/><CZS/><span className="tag_name">button</span><CZ/><br/>
+                        <OP /><span className="tag_name">button </span><span className="class_name">class</span><EQ/><IC/><span className="class">btn btn-stone btn-small</span><IC/><CZ /> STONE BUTTON <OP/><CZS/><span className="tag_name">button</span><CZ/><br/>
+                        <OP /><span className="tag_name">button </span><span className="class_name">class</span><EQ/><IC/><span className="class">btn btn-grass btn-small</span><IC/><CZ /> GRASS BUTTON <OP/><CZS/><span className="tag_name">button</span><CZ/><br/>
+                        <OP /><span className="tag_name">button </span><span className="class_name">class</span><EQ/><IC/><span className="class">btn btn-stop btn-small</span><IC/><CZ /> STOP BUTTON <OP/><CZS/><span className="tag_name">button</span><CZ/><br/>
+                        <OP /><span className="tag_name">button </span><span className="class_name">class</span><EQ/><IC/><span className="class">btn btn-warning btn-small</span><IC/><CZ /> WARNING BUTTON <OP/><CZS/><span className="tag_name">button</span><CZ/><br/>
                     </pre>
                 </div>
             </div>
@@ -90,22 +90,44 @@ export default function SubButton() {
             <Typography variant="Paragraph">For Large buttons you just need to add class <b>btn-large</b> it works with all kind of buttons</Typography>
             <div id="large_buttons">
                 <div className="ui pt-3">
-                    <button class="btn btn-sky btn-large">Sky Button</button>
-                    <button class="btn btn-stone btn-large">Stone Button</button>
-                    <button class="btn btn-grass btn-large">Grass Button</button>
-                    <button class="btn btn-stop btn-large">Stop Button</button>
+                    <button className="btn btn-sky btn-large">Sky Button</button>
+                    <button className="btn btn-stone btn-large">Stone Button</button>
+                    <button className="btn btn-grass btn-large">Grass Button</button>
+                    <button className="btn btn-stop btn-large">Stop Button</button>
                 </div>
                 <div className="code_section">
                     <pre>
-                    <OP /><span className="tag_name">button </span><span className="class_name">class</span><EQ/><IC/><span className="class">btn btn-sky btn-large</span><IC/><CZ /> SKY BUTTON <OP/><CZS/><span className="tag_name">button</span><CZ/><br/>
-                    <OP /><span className="tag_name">button </span><span className="class_name">class</span><EQ/><IC/><span className="class">btn btn-stone btn-large</span><IC/><CZ /> STONE BUTTON <OP/><CZS/><span className="tag_name">button</span><CZ/><br/>
-                    <OP /><span className="tag_name">button </span><span className="class_name">class</span><EQ/><IC/><span className="class">btn btn-grass btn-large</span><IC/><CZ /> GRASS BUTTON <OP/><CZS/><span className="tag_name">button</span><CZ/><br/>
-                    <OP /><span className="tag_name">button </span><span className="class_name">class</span><EQ/><IC/><span className="class">btn btn-stop btn-large</span><IC/><CZ /> STOP BUTTON <OP/><CZS/><span className="tag_name">button</span><CZ/><br/>
+                        <OP /><span className="tag_name">button </span><span className="class_name">class</span><EQ/><IC/><span className="class">btn btn-sky btn-large</span><IC/><CZ /> SKY BUTTON <OP/><CZS/><span className="tag_name">button</span><CZ/><br/>
+                        <OP /><span className="tag_name">button </span><span className="class_name">class</span><EQ/><IC/><span className="class">btn btn-stone btn-large</span><IC/><CZ /> STONE BUTTON <OP/><CZS/><span className="tag_name">button</span><CZ/><br/>
+                        <OP /><span className="tag_name">button </span><span className="class_name">class</span><EQ/><IC/><span className="class">btn btn-grass btn-large</span><IC/><CZ /> GRASS BUTTON <OP/><CZS/><span className="tag_name">button</span><CZ/><br/>
+                        <OP /><span className="tag_name">button </span><span className="class_name">class</span><EQ/><IC/><span className="class">btn btn-stop btn-large</span><IC/><CZ /> STOP BUTTON <OP/><CZS/><span className="tag_name">button</span><CZ/><br/>
                     </pre>
                 </div>
             </div>
 
-            
+            <h5>Gradient Button</h5>
+            <div id="gradient_buttons">
+                <div className="ui">
+                    <button class="btn btn-gradient-sky-pink">Sky Pink</button>
+                    <button class="btn btn-gradient-ice-cream-green">Ice Cream Green</button>
+                    <button class="btn btn-gradient-peacock-green">Peacock Green</button>
+                    <button class="btn btn-gradient-peacock-blue">Peacock Blue</button>
+                    <button class="btn btn-gradient-silent-red">Silent Red</button>
+                    <button class="btn btn-gradient-orange-mango">Orange Mango</button>
+                    <button class="btn btn-gradient-magnet-green">Magnet Green</button>
+                </div>
+                <div className="code_section">
+                    <pre>
+                        <OP /><span className="tag_name">button </span><span className="class_name">class</span><EQ/><IC/><span className="class">btn btn-gradient-sky-pink</span><IC/><CZ /> Sky Pink<OP/><CZS/><span className="tag_name">button</span><CZ/><br/>
+                        <OP /><span className="tag_name">button </span><span className="class_name">class</span><EQ/><IC/><span className="class">btn btn-gradient-ice-cream-green</span><IC/><CZ /> Ice Cream Green <OP/><CZS/><span className="tag_name">button</span><CZ/><br/>
+                        <OP /><span className="tag_name">button </span><span className="class_name">class</span><EQ/><IC/><span className="class">btn btn-gradient-peacock-green</span><IC/><CZ /> Peacock Green <OP/><CZS/><span className="tag_name">button</span><CZ/><br/>
+                        <OP /><span className="tag_name">button </span><span className="class_name">class</span><EQ/><IC/><span className="class">btn btn-gradient-peacock-blue</span><IC/><CZ /> Peacock Blue <OP/><CZS/><span className="tag_name">button</span><CZ/><br/>
+                        <OP /><span className="tag_name">button </span><span className="class_name">class</span><EQ/><IC/><span className="class">btn btn-gradient-silent-red</span><IC/><CZ /> Silent Red <OP/><CZS/><span className="tag_name">button</span><CZ/><br/>
+                        <OP /><span className="tag_name">button </span><span className="class_name">class</span><EQ/><IC/><span className="class">btn btn-gradient-orange-mango</span><IC/><CZ /> Orange Mango <OP/><CZS/><span className="tag_name">button</span><CZ/><br/>
+                        <OP /><span className="tag_name">button </span><span className="class_name">class</span><EQ/><IC/><span className="class">btn btn-gradient-magnet-green</span><IC/><CZ /> Magnet Green <OP/><CZS/><span className="tag_name">button</span><CZ/><br/>
+                    </pre>
+                </div>
+            </div>
 
 
 

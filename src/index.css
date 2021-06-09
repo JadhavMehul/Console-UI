@@ -270,6 +270,11 @@ body {
   color: #a2c492;
 }
 
-.ui button {
+.ui button, .ui>.plate {
   margin: 5px;
+}
+
+.card-title{
+  margin-top: 0%!important;
+  font-weight: 500!important;
 }

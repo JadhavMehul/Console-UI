@@ -2,6 +2,8 @@ import { Container, Grid, List, ListItem, ListItemText, Typography } from '@mate
 import React, { useState } from 'react';
 import Navbar from '../components/navbar/Navbar';
 import ConsoleButton from '../components/ConsoleComponents/ConsoleButton'
+import ConsolePlate from '../components/ConsoleComponents/ConsolePlate';
+import ConsoleCard from '../components/ConsoleComponents/ConsoleCard';
 
 export default function Docs() {
 
@@ -17,10 +19,10 @@ export default function Docs() {
                         <ListItem button onClick={() => setComponent(<ConsoleButton />)}>
                             <ListItemText className="pl-3" primary={"Buttons"} />
                         </ListItem>
-                        <ListItem button onClick={() => setComponent()}>
+                        <ListItem button onClick={() => setComponent(<ConsolePlate />)}>
                             <ListItemText className="pl-3" primary={"Plate"} />
                         </ListItem>
-                        <ListItem button onClick={() => setComponent()}>
+                        <ListItem button onClick={() => setComponent(<ConsoleCard />)}>
                             <ListItemText className="pl-3" primary={"Card"} />
                         </ListItem>
                         <ListItem button onClick={() => setComponent()}>
